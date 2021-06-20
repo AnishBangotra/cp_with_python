@@ -8,6 +8,6 @@ def permutate(s, space):
 		res = left_sub + right_sub
 		permutate(res, space + char)
 		
-space = ''
+spacing = ''
 s = input('string')
-permutate(s, space)
+permutate(s, spacing)
