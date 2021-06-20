@@ -15,5 +15,5 @@ def sieveOfEratosthenes(n):
 		if prime[p]:
 			print(p)
 
-#for value of n
+#for any value of n
 sieveOfEratosthenes(n)
