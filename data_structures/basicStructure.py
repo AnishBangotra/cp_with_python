@@ -94,18 +94,4 @@ class LinkedList:
                 return
 
 my_list = LinkedList()
-my_list.append(3)
-my_list.display()
-my_list.append(45)
-my_list.display()
-my_list.inserting_values([3,4,7,9])
-my_list.display()
-print(my_list.length())
-my_list.delete(1)
-my_list.display()
-my_list.insert(1,42)
-my_list.display()
-my_list.removingDuplicates()
-my_list.display()
-my_list.insertAtBeginning(5)
-my_list.display()
+
