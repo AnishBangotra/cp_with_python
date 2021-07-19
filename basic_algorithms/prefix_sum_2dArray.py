@@ -4,9 +4,9 @@
 # prefix sum matrix be pref[][]. The value of pref[i][j] contains sum of all values which are above it or on left of it.
 
 data = [[1,3,5,7],
-		[1,3,5,7],
-		[1,3,5,7],
-		[1,3,5,7]]
+	[1,3,5,7],
+	[1,3,5,7],
+	[1,3,5,7]]
 
 row, col =4,4
 #creating prefix sum matrix
