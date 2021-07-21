@@ -68,26 +68,3 @@ for row in range(len(maze)):
 
 print(pathcount)
 printmaze(maze, marked)
-
-
-#This game follows the breadth first search algorithm similar to depth first search!!
-#inputgivenlist
-#loop running through all of the elements just like normal depth first search
-#whenever it finds the 0 player initialises with that pos of 0
-#create a neighbour function and apply to it at that position for its adjacent positions
-#making conditions so that player will not look in those path positions which player passed already
-#result would be printing through the shortest path of the player to reach the position
-
-
-
-
-
-
-#qu=qu.queue()
-#qu.put(' ')
-#add=''
-#while True:
-#    for j in ['L','R'.'U','D']:
-#        put=add+j
-#        if valid(as):
-#            qu.put(put)
