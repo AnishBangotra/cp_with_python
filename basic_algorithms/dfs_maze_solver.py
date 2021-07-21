@@ -60,7 +60,6 @@ for row in range(len(maze)):
                     if maze[y][x]=='X' and maze[y][x]!='#' and maze[y][x]!=' ' and (y,x) not in marked:
                         marked.add((y,x))
                         pathcount+=1
-                        #stack.append((y,x))
                         break
                     elif maze[y][x] == ' ' and maze[y][x]!= '#' and (y,x) not in marked:
                         marked.add((y,x))
