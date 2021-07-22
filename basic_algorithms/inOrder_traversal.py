@@ -23,7 +23,7 @@ def inOrder(self, root):
 		else:break
 	print()
 
-# Driver program
+# Driver program for the program
 
 root = Node(5)
 root.right = Node(3)
