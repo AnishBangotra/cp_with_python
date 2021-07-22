@@ -1,5 +1,5 @@
 # You have a binary tree, finding inorder traversal of tree 
-# without using recursion...
+# without using recursion....
 
 #Finding Inorder traversal using iterative approach(using stack)
 class Node:
