@@ -1,7 +1,6 @@
 from numpy import *
-#-------------Variables----------------------
+
 player='0'
-game_is_running=True
 marked=set()
 stack=[]
 pathcount=0
